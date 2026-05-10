@@ -45,5 +45,7 @@ def show_summary():
 add_expense("Groceries", 1500, "Food")
 add_expense("Netflix", 499, "Entertainment")
 
+print("Export feature coming soon...")
+
 view_expenses()
 show_summary()
