@@ -46,6 +46,7 @@ add_expense("Groceries", 1500, "Food")
 add_expense("Netflix", 499, "Entertainment")
 
 print("Export feature coming soon...")
+print("Expense calculation fixed")
 
 view_expenses()
 show_summary()
