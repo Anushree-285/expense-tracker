@@ -30,11 +30,20 @@ def view_expenses():
 
     print(f"\nTotal Expense: ₹{total}")
 
+
+def show_summary():
+    total = 0
+
+    for expense in expenses:
+        total += expense["amount"]
+
+    print("\nExpense Summary")
+    print(f"Total Transactions: {len(expenses)}")
+    print(f"Total Amount: ₹{total}")
+
+
 add_expense("Groceries", 1500, "Food")
 add_expense("Netflix", 499, "Entertainment")
 
-from datetime import datetime
-
-print(f"\nGenerated on: {datetime.now()}")
-
 view_expenses()
+show_summary()
