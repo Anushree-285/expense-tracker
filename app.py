@@ -33,4 +33,8 @@ def view_expenses():
 add_expense("Groceries", 1500, "Food")
 add_expense("Netflix", 499, "Entertainment")
 
+from datetime import datetime
+
+print(f"\nGenerated on: {datetime.now()}")
+
 view_expenses()
